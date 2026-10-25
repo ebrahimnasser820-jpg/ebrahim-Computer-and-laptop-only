@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-transform: capitalize;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+    background-color: rgb(154, 224, 236);
+}
+
+header div img {
+    width: 95px;
+    height: 100px;
+    border-radius: 60px;
+    border: 4px solid #b6ccd0;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 23px;
+    border-radius: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all ease;
+}
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+header nav a:hover {
+    scale: 1.3;
+}
+
+header nav .btn {
+    outline: none;
+    border: none;
+    width: 70px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #eca69a;
+    color: #fff;
+    transition: background 2s, color 1s ease;
+    cursor: pointer;
+
+}
+
+header nav .btn:hover {
+    background-color: #9ab7ec;
+    color: bisque;
+}
+
+/*==================================*/
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: rgb(154, 224, 236);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.hero-bage {
+    width: 681px;
+    color: #fff;
+}
+
+.hero-bage h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.hero-bage h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 28px;
+    font-size: 2rem;
+}
+
+.hero-bage p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.hero img {
+    border-radius: 20px;
+}
+
+.hero-bage input {
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 45px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.hero-bage-btn {
+    width: 88px;
+    height: 45px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    position: absolute;
+    left: 226px;
+    background-color: #eca69a;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.hero-bage-btn:hover{
+    scale: 1.1;
+}
+/*==============================*/
+.hero-pro {
+    padding-left: 66px;
+    padding-right: 26px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hero-pro div h3 {
+    color: rgba(71, 82, 91, 0.953);
+    font-size: 30px;
+    font-style: normal;
+}
+
+.hero-pro .btn {
+    outline: none;
+    border: none;
+    background-color: #f2f2f2;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+
+.hero-div {
+/*=========padding-top=======*/
+    padding: 40px 10px 10px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.hero-pro-div {
+    transition: all .4s ease;
+    box-shadow: 8px 8px 8px 8px rgb(54, 54, 54), 9px 9px 9px 9px rgb(146, 145, 145), 10px 10px 10px 10px white;
+    width: 235px;
+    height: 360px;
+    border-radius: 10px;
+    /*===================*/
+    background-color:#d9d9d9;
+}
+
+.hero-pro-div:hover {
+    translate: 0px -10px;
+    scale: 1.1;
+}
+
+.hero-pro-div img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.hero-pro-div div img {
+    width: 50px;
+    border-radius: 10px;
+}
+
+.hero-pro-div-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.hero-pro-div-hero div h5 {
+    padding-bottom: 5px;
+}
+
+/*=============================*/
+footer {
+    background-color: rgba(54, 66, 66, 0.305);
+    border-radius: 20px 20px 0 0;
+    min-height: 200px;
+}
+
+.footer-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 172px;
+
+}
+.footer-hero-top-h1{
+    margin-top: -110px;
+}
+.footer-hero-top {  
+    margin-top: 3%;
+}
+.footer-hero-h1{
+    padding-left: 30px;
+}
+.footer-hero-color {
+    color: #415050;
+    font-size: 28px;
+    transition: all .6s ease;
+}
+
+.footer-hero-color:hover {
+    scale: 1.3;
+
+}
